@@ -4,4 +4,11 @@ selector {
   }
   */
 header h1 {
-  color: #00802b
+  color: #00802b;
+}
+
+header {
+  background: url('https://static.pexels.com/photos/82857/pexels-photo-82857.jpeg');
+  width: 100%;
+  padding: 50px;
+}
