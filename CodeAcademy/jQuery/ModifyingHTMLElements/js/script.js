@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $("#button").click(function() {
-        var toAdd = $("input[name=checkListItem]").val();
-        $("#list").append("toAdd");
+    $('#button').click(function() {
+        var toAdd = $('input[name=checkListItem]').val();
+        $('.list').append('<div class='item'>' + toAdd + '</div>');
     });
     $(document).on('click', 'list', function() {
         $("#list").remove();
