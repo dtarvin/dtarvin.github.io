@@ -3,7 +3,7 @@ $(document).ready(function() {
         var toAdd = $('input[name=checkListItem]').val();
         $('.list').append('<div class="item">' + toAdd + '</div>');
     });
-    $(document).on('click', 'list', function() {
-        $("#list").remove();
+    $(document).on('click','.item', function() {
+        $(this).remove();
     });
 });
