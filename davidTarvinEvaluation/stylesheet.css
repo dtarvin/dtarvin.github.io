@@ -4,7 +4,7 @@ body{
             
             #container{
                 height: 100vh;
-                background-image: url("images/playful-kitten-6683.jpg");
+                background-image: url("images2/playful-kitten-6683.jpg");
                 background-size: 100%;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body{
                 transition: top 1s ease-in-out;
             }
             li::before{
-                content: url("images/pawprint.png");
+                content: url("images2/pawprint.png");
                 background-repeat: no-repeat;
                 position: absolute;
                 transform: translate(100%);
