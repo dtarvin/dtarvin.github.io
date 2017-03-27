@@ -1,3 +1,9 @@
+$("li").hover(function(){
+	var x = this.offset().left;
+	var wth = this.width();
+	
+});
+
 /* $("li").hover(function(){
                $(this).css({
                    margin-top, "48vh";
