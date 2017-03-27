@@ -41,12 +41,12 @@ body{
                 margin-right: 2vw;
                 padding-top: 52vh;
             }
-            /*#paw{
+            #paw{
                 position: relative;
-                top: 52vh;
-                left: 0;
+                top: 54vh;
+                left: 50vw;
                 transition: 1s;
-            }*/
+            }
             li span{
                 position: relative;
                 transition: top 1s ease-in-out;
