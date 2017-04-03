@@ -1,11 +1,12 @@
-body{
+           body{
                 font-family: "Montserrat", sans-serif;
+                box-sizing: border-box;
             }
             
             #container{
                 height: 100vh;
                 background-image: url("images2/playful-kitten-6683.jpg");
-                background-size: 100%;
+                background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 border: 1px solid black;
@@ -15,8 +16,9 @@ body{
             
             h1{
                 
-                margin-left: 5vw;
+                margin-left: 2vw;
                 margin-top: 1vh;
+                margin-bottom: 2vh;
             }
             
             .orange{
@@ -25,53 +27,58 @@ body{
             }
             
             h2{
-                font-size: 4vh;
-                margin-left: 5vw;
+                font-size: 3.6vh;
+                margin-left: 2vw;
                 display: inline-block;
                 vertical-align: top;
             }
             
             #netflix{
-                width: 10vw;
-                margin-top: -1vh;
+                width: 7vw;
+                margin-top: .5vh;
+                z-index: -1;
             }
             li{
                 display: inline;
                 float: right;
-                margin-right: 2vw;
+                padding-left: 1vw;
+                padding-right: 1vw;
+                padding-bottom: 10vh;
                 padding-top: 52vh;
             }
             #paw{
                 position: relative;
-                top: 54vh;
-                left: 50vw;
+                top: 52vh;
+                left: 0;
                 transition: 1s;
+                max-width: 20px;
+                height: auto;
+                display: none;
             }
             li span{
                 position: relative;
-                transition: top 1s ease-in-out;
+                transition: top .5s;
             }
-            li::before{
+            /*li::before{
                 content: url("images2/pawprint.png");
                 background-repeat: no-repeat;
                 position: absolute;
-                transform: translate(100%);
                 opacity: 0;
                 transition: opacity 1s ease-in-out;
             }
             li:hover::before{
                 opacity: 1;
                 animation: slide 1s;
-            }
+            }*/
             
             li:hover span {
                 top: -4vh;
             }
-            @keyframes slide{
+            /*@keyframes slide{
                 from {
                     margin-left: -100%;
                 }
                 to {
                     margin-left: 0%;
                 }
-            }
+            }*/
