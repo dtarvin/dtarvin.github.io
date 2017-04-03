@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Orange is the new Cat</title>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet" />
 	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -19,12 +19,30 @@
                         <li class="orange"><span>Home</span></li>
                     </ul>
                 </nav>
-		    <img id="paw" src="images2/pawprint.png" />
+                <img id="paw" src="images2/pawprint.png" />
             </footer>
         </div>
         <script
   src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
         <script   src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="   crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+        <!--<script src="script.js"></script>-->
+        <script>
+            $("li").mouseenter(function(){
+               var x = $(this).offset().left;
+                console.log("The left side is "+x);
+                var wth = $(this).width();
+                console.log("The width is "+wth);
+                var pawMove = x + (wth/2);
+                $("#paw").css("display", "inline");
+                $("#paw").animate({
+                   left: pawMove,
+                    "transform": "translate(-50%)"
+                }, 100, function(){
+                });
+                    
+                    
+                    //.css("left", pawMove);
+            });
+        </script>
     </body>
 </html>
