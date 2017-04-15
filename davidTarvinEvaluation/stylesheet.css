@@ -54,10 +54,12 @@
                 max-width: 20px;
                 height: auto;
                 display: none;
+                pointer-events: none;
             }
             li span{
                 position: relative;
-                transition: top .5s;
+                transition: top .5s 0.5s;
+                top: -0vh;
             }
             /*li::before{
                 content: url("images2/pawprint.png");
