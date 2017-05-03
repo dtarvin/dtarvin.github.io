@@ -1,0 +1,49 @@
+/* 
+    Created on : May 2, 2017, 7:08:56 PM
+    Author     : davidtarvin
+*/
+
+#calculator {
+    width: 50vmin;
+    height: 50vmin;
+    font-size: 5vmin;/*actually 11.74% of 50vmin - why? 37.981/323.5*/
+    background-color: gray;
+}
+
+#display {
+    
+}
+
+button, #display {
+    padding: 0.25em;
+    /*
+    10 pad * 2.5% = 25% + 57% font height + 2.5% * 9 = 
+    */
+    margin: 1.0%;/*keys fit w/ 1% margin but not 2.5%*/
+    box-sizing: border-box;
+    /*height: 25%;*/
+    /*height increases the height of the display only, not the buttons*/
+}
+
+/*#buttons {
+    height: 80%;
+}*/
+
+button {
+    float: left;/*display is not floated*/
+    font-size: inherit;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 0.25em;
+    color: darkgray;
+    width: 20%;
+    height: 25%;/*div buttons has no height itself*/
+}
+
+.number {
+    
+}
+
+.operator {
+    
+}
