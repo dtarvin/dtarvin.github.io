@@ -5,7 +5,7 @@
 
 #calculator {
     width: 50vmin;
-    height: 50vmin;
+    overflow: auto;
     font-size: 5vmin;/*actually 11.74% of 50vmin - why? 37.981/323.5*/
     background-color: gray;
 }
