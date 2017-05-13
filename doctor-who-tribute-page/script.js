@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#tardis-takeoff").get(0).play();
+    $("#tardis-takeoff").play();
     var image_array = ["https://s-media-cache-ak0.pinimg.com/originals/c8/3a/ce/c83ace6e2751a862d21d48c59d63a780.jpg", "http://img01.deviantart.net/8061/i/2014/300/5/a/doctor_who__patrick_troughton_by_jonathanslack1997-d84bfq1.jpg", "https://pbs.twimg.com/media/Br2wu9mIcAEgfTm.jpg:large",
              "https://www.tombakerofficial.com/wp-content/uploads/revslider/tbgallery/04.jpg",
                    "http://i.dailymail.co.uk/i/pix/2013/11/02/article-2485073-19275F1300000578-213_306x423.jpg",
