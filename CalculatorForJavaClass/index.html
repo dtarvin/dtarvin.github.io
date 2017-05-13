@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -12,7 +7,36 @@ and open the template in the editor.
         <link rel="stylesheet" href="standard.css">
         <script src="jquery-3.2.1.min.js"></script>
         <script>
-            $(document).ready(function() {    
+            $(document).ready(function() {
+                var equalWasLast = false;
+                var errorWasLast = false;
+                $(".number, .operator").click(function(){
+                   var label = $(this).text().trim(); 
+                   var display = $("#display");
+                   if(display.text() === "0" || errorWasLast || (equalWasLast && $(this).hasClass("number"))){
+                       display.empty();
+                       errorWasLast = false;
+                   }
+                   $(".operator, .equal").removeAttr("disabled");
+                   display.append(label);
+                   equalWasLast = false;
+                });
+                $(".equal").click(function(){
+                    equalWasLast = true;
+                   var display = $("#display").text();  
+                   try{
+                       var answer = eval(display).toString();
+                       if (answer.length > 12) {
+                           answer = answer.substr(0,12);
+                       }
+                       $("#display").empty().append(answer);
+                   } catch(error){
+                       errorWasLast = true;
+                       $("#display").empty().append("*ERROR*");
+                       $(".operator, .equal").attr("disabled","disabled");
+                   }
+                   
+                });
             });
         </script>
     </head>
@@ -37,9 +61,11 @@ and open the template in the editor.
                 
                 <button class="number">0</button>
                 <button class="number">.</button>
-                <button class="operator">=</button>
+                <button class="equal">=</button>
                 <button class="operator">+</button>
+                <div class="clear"></div>
             </div>
         </div>
     </body>
 </html>
+
