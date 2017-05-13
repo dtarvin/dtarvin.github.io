@@ -6,7 +6,7 @@ body{
 
 
 #container{
-  width: 41vmin;
+  width: 50vmin;
   height: 60vmin;
   position: relative;
   perspective: 3000px;       
@@ -42,7 +42,7 @@ body{
 }
             
 .front{
-  background-image: url("https://static3.comicvine.com/uploads/original/4/49017/1112141-tardis.jpg");
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ec/82/a7/ec82a71c23384cdcc2c2f3d5f3ffeae0.png");
   background-size: cover;
  
 }
