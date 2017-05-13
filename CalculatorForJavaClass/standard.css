@@ -1,43 +1,48 @@
-/* 
-    Created on : May 2, 2017, 7:08:56 PM
-    Author     : davidtarvin
-*/
-
 #calculator {
     width: 50vmin;
-    overflow: auto;
-    font-size: 5vmin;/*actually 11.74% of 50vmin - why? 37.981/323.5*/
+    /*height: 50vmin;*/
+    font-size: 5vmin;
     background-color: gray;
+    font-family: sans-serif;
 }
 
 #display {
-    
+    background-color: blue;
+    width: 95%;
+    display: inline-block;
+    text-align: right;
+    overflow: auto;
 }
 
 button, #display {
     padding: 0.25em;
-    /*
-    10 pad * 2.5% = 25% + 57% font height + 2.5% * 9 = 
-    */
-    margin: 1.0%;/*keys fit w/ 1% margin but not 2.5%*/
+    font-family: inherit;
+    margin: 2.5%;
     box-sizing: border-box;
-    /*height: 25%;*/
-    /*height increases the height of the display only, not the buttons*/
+    /*height: 15%;*/
 }
 
-/*#buttons {
-    height: 80%;
-}*/
+#buttons {
+    /*height: calc(45vmin - 7.5%);*/
+    position: relative;
+   background-color: aquamarine;
+    /*overflow: auto;*/
+}
 
 button {
-    float: left;/*display is not floated*/
+    /*margin: 2.08% 2.5% 2.08% 2.5%;*/
+    float: left;
     font-size: inherit;
     display: inline-block;
     background-color: lightgray;
     border-radius: 0.25em;
     color: darkgray;
     width: 20%;
-    height: 25%;/*div buttons has no height itself*/
+    /*height: 20%;*/
+}
+
+.clear {
+    clear: left;
 }
 
 .number {
