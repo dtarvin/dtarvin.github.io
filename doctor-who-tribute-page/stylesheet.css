@@ -1,0 +1,78 @@
+body{
+  font-family: 'Slabo 27px', serif;
+  background: url("https://www.motionbackgroundsforfree.com/wp-content/uploads/2012/05/Screen-shot-2012-05-11-at-2.43.55-PM.png");
+  background-size: cover;
+}
+
+
+#container{
+  width: 41vmin;
+  height: 60vmin;
+  position: relative;
+  perspective: 3000px;       
+  /*top: 20vh;
+  left: 50%;
+  transform: translate(-50%);*/
+  display: inline-block;
+  text-align: center;
+}
+            
+#card{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ 
+  transform-style: preserve-3d;
+ transition: transform .5s;
+  /*-webkit-*/transform-origin: center;
+  
+}
+            
+#card.flipped{
+  /*-webkit-*/transform: /*translateY(100%)*/ rotateY(900deg);
+}
+            
+#card div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*-webkit-*/backface-visibility: hidden;
+  
+  
+}
+            
+.front{
+  background-image: url("https://static3.comicvine.com/uploads/original/4/49017/1112141-tardis.jpg");
+  background-size: cover;
+ 
+}
+            
+.back{
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c8/3a/ce/c83ace6e2751a862d21d48c59d63a780.jpg");
+  background-size: cover;
+  /*-webkit-*/transform: rotateY(180deg);
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: -4px 4px 3px 3999999;
+  color: blue;
+}
+
+div p {
+  display: inline-block;
+  color: white;
+}
+
+#outside-container{
+  width: 100%;
+  text-align: center;
+}
+
+#about{
+  margin: 5vh 10vh 5vh 10vh;
+  border: 5px solid blue;
+  border-radius: 10px;
+  text-align: center;
+}
