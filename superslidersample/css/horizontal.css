@@ -56,3 +56,8 @@ header label:hover {
 .slide-two { background-image: url('https://image.shutterstock.com/z/stock-photo-urban-geometry-looking-up-to-glass-building-modern-architecture-glass-and-steel-abstract-334910669.jpg'); }
 .slide-three { background-image: url('https://image.shutterstock.com/z/stock-photo-man-going-from-underground-to-the-city-359155502.jpg'); }
 .slide-four { background-image: url('https://image.shutterstock.com/z/stock-photo-beautiful-retro-luxury-light-lamp-decor-glowing-279671069.jpg'); }
+
+[id*="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+}
