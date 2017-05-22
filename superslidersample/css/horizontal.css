@@ -56,7 +56,7 @@ header label:hover {
 .slide-one { background-image: url('http://res.cloudinary.com/djl3czimu/image/upload/v1495401379/Turner-Dance-Kristen_hhlexf.jpg'); }
 .slide-two { background-image: url('http://res.cloudinary.com/djl3czimu/image/upload/v1495401331/Turner-Dance-elkhorn_ysidp6.jpg'); }
 .slide-three { background-image: url('http://res.cloudinary.com/djl3czimu/image/upload/v1495401308/Turner-Dance-dikristen_llcgun.jpg'); }
-.slide-four { background-image: url('http://res.cloudinary.com/djl3czimu/image/upload/v1495401271/Turner-Dance-class_n8fdzc.jpg'); }
+.slide-four { background-image: url('http://res.cloudinary.com/djl3czimu/image/upload/v1495415444/Turner-Dance-Kristen2_euvau3.jpg'); }
 
 [id^="slide"]:checked + .slide {
   left: 0;
@@ -74,4 +74,8 @@ header label:hover {
   opacity: 1;
   transform: translateY(0);  
   transition: all .5s .5s;
+}
+
+h2 {
+    z-index: 200;
 }
