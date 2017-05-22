@@ -77,5 +77,6 @@ header label:hover {
 }
 
 h2 {
-    z-index: 200;
+    z-index: 1000;
+    margin: 20vh;
 }
