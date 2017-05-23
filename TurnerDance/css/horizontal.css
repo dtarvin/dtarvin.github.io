@@ -50,7 +50,7 @@ header label:hover {
   background-color: #120103;
   background-position: 50% 50%;
   background-size: cover;
-  transition: left 0s .75s;
+  /*transition: left 0s .75s;*/
 }
 
 .slide-one { background-image: url('http://res.cloudinary.com/djl3czimu/image/upload/v1495401379/Turner-Dance-Kristen_hhlexf.jpg'); }
