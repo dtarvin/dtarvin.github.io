@@ -44,14 +44,14 @@ body{
 .front{
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ec/82/a7/ec82a71c23384cdcc2c2f3d5f3ffeae0.png");
   background-size: contain;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
  
 }
             
 .back{
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c8/3a/ce/c83ace6e2751a862d21d48c59d63a780.jpg");
   background-size: contain;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   /*-webkit-*/transform: rotateY(180deg);
 }
 
