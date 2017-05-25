@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #work{
+                width: 50%;
+                float: left;
+                display: inline-block;
+            }
+            #home{
+                width: 50%;
+                display: inline-block;
+            }
+            .remove{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <input type="text" id="input" />
+            
+            <select id="choice">
+                <option value="work">Work</option>
+                <option value="home">Home</option>
+            </select>
+            <button type="button" id="add">Add</button>
+        </div>
+        <div id="work">
+            <h1>Work</h1>
+        </div>
+        <div id="home">
+            <h1>Home</h1>
+        </div>
+        
+        
+        <script
+  src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script   src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="   crossorigin="anonymous"></script>
+        <script>
+            
+            $("#add").click(function(){
+                
+                var taskDesc = $("#input").val();
+                if(taskDesc == ""){
+                    $("#add").append("<div><span class='mustAdd'>").text("You must input a task to add.</span></div>");
+                }
+                else{
+                    $(".mustAdd").remove();
+                    var choice=$('select').val();
+                    $("#"+choice).append("<div class='task'><span class='desc'>"+taskDesc+"  </span><span class='remove'>x</span></div>");
+                }
+             });
+            
+            $("body").on("click", ".remove", function(){
+                var delTask = $(this).prev().text();
+                $(this).parent().remove();
+            
+            });
+                
+       
+        </script>
+        
+        <!--For your homework assignment, you will be creating a to-do list web application. Feel free to style it in any way you choose. You will need to:
+1. Read in information from an input text field using .val() to get the task description.
+2. Have at least two different lists to add tasks to.
+3. Have a dropdown (html select tag) with choices (html option tag) of which list to add tasks to. Read in the chosen value from the dropdown and use that in your code to select which list to append the entered task.
+4. Have a button, with a click handler that calls an add function to add the task to the chosen list (using the above information).
+5. On task add, structure the appended html similar to: "<div class='task'><span class='desc'>"+taskDesc+"</span><span class='remove'>x</span></div>"
+6. Create an on click handler that will fire for any current AND future elements with the .remove class. Do this by:
+    a. Creating an on click handler attached to the body tag and provide an additional delegate ".remove" selector (example - http://api.jquery.com/on/#example-10). 
+    b. On click, use the $(this) element
+    c. With the above element, step to the parent element (read about the parent() jQuery function - http://api.jquery.com/parent/)
+    d. Finally, from the parent, remove the entire container (read about the remove() jQuery function - http://api.jquery.com/remove/)
+OPTIONAL Extra Ideas (feel free to come up with your own):
+1. Prevent tasks from being added if the task description field is left blank.
+2. Empty the task description field on add - set the value to empty string .val("").
+3. Add a keypress event on the task description input field, if the pressed key is the enter key (use event data and eventData.which == 13), also fire the add function.
+4. Add a field allowing a task due-date to be entered. (use <input type="date" />)
+5. An input checkbox to mark something as a high priority task (perhaps make the text red using the following code: $("#element").css("color", "red"); or you can add a class, to the markup, while adding the task if the checkbox is checked.
+6. Allow the user to cross off completed tasks (to cross out an element in javascript use the following code: $("#element").css("text-decoration", "line-through"); this sets the inline CSS of the element to the value inside quotes.
+7. Hide the remove button unless a task is crossed off.-->
+    </body>
+</html>
