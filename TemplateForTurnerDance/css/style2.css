@@ -28,9 +28,29 @@
 .w3layouts-banner-top{
   background: url(../images/Turner-Dance-Kristen.jpg) no-repeat 0px 0px;
   background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
-	min-height:780px;
+  -webkit-background-size: cover;	
+  -moz-background-size: cover;
+  -o-background-size: cover;		
+  -moz-background-size: cover;
+  min-height:780px;
+}
+
+.w3layouts-banner-top1{
+  background: url(../images/Turner-Dance-class.jpg) no-repeat 0px 0px;
+  background-size: cover;	
+  -webkit-background-size: cover;	
+  -moz-background-size: cover;
+  -o-background-size: cover;		
+  -moz-background-size: cover;
+  min-height:780px;
+}
+
+.w3layouts-banner-top2{
+  background: url(../images/Turner-Dance-dikristen.jpg) no-repeat 0px 0px;
+  background-size: cover;	
+  -webkit-background-size: cover;	
+  -moz-background-size: cover;
+  -o-background-size: cover;		
+  -moz-background-size: cover;	
+  min-height:780px;
 }
