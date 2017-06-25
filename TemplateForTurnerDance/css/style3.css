@@ -1,14 +1,22 @@
 .background1 {
-    background-image: url("images/Turner-Dance-Kristen.jpg");
+    width: 100%;
+    background-image: url("../images/Turner-Dance-Kristen.jpg");
     background-size: cover;
 }
 
 .background2 {
-    background-image: url("images/Turner-Dance-elkhorn.jpg");
+    width: 100%;
+    background-image: url("../images/Turner-Dance-elkhorn.jpg");
     background-size: cover;
 }
 
 .background3 {
-    background-image: url("images/Turner-Dance-class.jpg");
+    width: 100%;
+    background-image: url("../images/Turner-Dance-class.jpg");
     background-size: cover;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
 }
