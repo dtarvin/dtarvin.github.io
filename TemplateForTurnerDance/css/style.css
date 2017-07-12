@@ -11,7 +11,7 @@ body {
     background: #fff;
 }
 
-body a {
+body a {  //lines 53, 66, 79, 93, 109, 116, 118-122, 124, 144, 291, 318, 344, 369, 413-415, 430-432, 447-449, 464-466, 481-483, 498-500, 674, 721-722, 725-727, 737, 741
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
