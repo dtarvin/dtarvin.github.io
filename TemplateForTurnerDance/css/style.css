@@ -11,7 +11,7 @@ body {
     background: #fff;
 }
 
-/*body a {
+body a {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -19,7 +19,7 @@ body {
     -ms-transition: 0.5s all;
     text-decoration: none;
     outline: none;
-}*/
+}
 
 h1,
 h2,
@@ -53,7 +53,7 @@ body a:focus {
 
 /*-- banner --*/
 
-.w3ls-banner {
+.w3ls-banner {              //line 40
     position: relative;
 }
 
