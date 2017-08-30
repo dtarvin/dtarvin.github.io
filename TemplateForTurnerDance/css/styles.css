@@ -1,4 +1,8 @@
-html {
+.pic1 {
   background: url(../images/Turner-Dance-Kristen.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.pic2 {
+  background: url(../images/Turner-Dance-class.jpg) no-repeat center center fixed;
   background-size: cover;
 }
