@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Fish Creek Animal Hospital Services::Ask the Vet</title>
+		<title>Fish Creek Animal Hospital Services::Contact</title>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="fishcreek.css">
@@ -24,14 +24,16 @@
 				</ul>
 			</nav>
 			<main>
-				<p><a href="contact.html">Contact</a> us if you have a question that you would like answered here.</p>
-				<dl>
-					<dt class="category">Question: Our dog, Sparky, likes to eat whatever the kids are snacking on. Is it 
-                                                             okay for the dog to eat chocolate?</dt>
-					<dd>Answer: Chocolate is toxic to dogs. Please do not feed your dog chocolate. Try 
-                                            playing a game with your children &mdash; when you feed them people treats, they 
-                                            can feed Sparky dog treats.</dd>
-				</dl>
+				<h2>Contact Fish Creek</h2>
+				<form method="post" action="http://webdevbasics.net/scripts/fishcreek.php">
+					<label for="myName">Name:</label>
+					<input type="text" name="myName" id="myName">
+					<label for="myEmail">E-mail:</label>
+					<input type="text" name="myEmail" id="myEmail">
+					<label for="myComments">Comments:</label>
+					<textarea name="myComments" id="myComments" rows="2" cols="25"></textarea>
+					<input type="submit" value="Send Now" id="mySubmit">
+				</form>
 			</main>
 			<footer>
 				Copyright &copy; 2016 Fish Creek Animal Hospital<br>
