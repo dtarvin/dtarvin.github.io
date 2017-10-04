@@ -154,6 +154,27 @@ tr:nth-of-type(odd) {
     background-color: #d2b48c;
 }
 
+form {
+    padding: 2em;	
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;	
+}
+
 @media only screen and (max-width: 1024px) {
     body {
         margin: 0;
