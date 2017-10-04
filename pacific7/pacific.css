@@ -134,6 +134,30 @@ nav ul {
     display: inline;
 }
 
+table {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #3399cc;
+    border-collapse: border;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #3399cc;
+}
+
+td {
+    text-align: center;	
+}
+
+text {
+    text-align: left;	
+}
+
+tr:nth-of-type(even) {
+    background-color: #f5fafc;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
         margin: 0;
