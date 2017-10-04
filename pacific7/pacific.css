@@ -158,6 +158,22 @@ tr:nth-of-type(even) {
     background-color: #f5fafc;
 }
 
+label {
+    float: left;
+    display: block;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 10em;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
         margin: 0;
