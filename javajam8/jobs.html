@@ -26,14 +26,15 @@
 		</nav>
 		<main>
 			<h2>Jobs at JavaJam</h2>
-			<p>Want to work at JavaJam? Fill out the form below to start your application.</p>
+			<p>Want to work at JavaJam? Fill out the form below to start your application.<br>
+			Required fields are marked with an asterisk *.</p>
 			<form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
 				<label for="myName">Name:</label>
-				<input type="text" name="myName" id="myName">
+				<input type="text" name="myName" id="myName" required="required">
 				<label for="myEmail">E-mail:</label>
-				<input type="text" name="myEmail" id="myEmail">
+				<input type="email" name="myEmail" id="myEmail" required="required">
 				<label for="myExperience">Experience:</label>
-				<textarea name="myExperience" id="myExperience" rows="2" cols="25"></textarea>
+				<textarea name="myExperience" id="myExperience" rows="2" cols="25" required="required"></textarea>
 				<input type="submit" value="Apply Now" id="mySubmit">
 			</form>
 		</main>
