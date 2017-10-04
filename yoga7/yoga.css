@@ -94,6 +94,29 @@ main {
     display: inline;
 }
 
+table {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #3f2860;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #3f2860;
+}
+
+tr:nth-of-type(even) {
+    background-color: #9bc1c2;	
+}
+
+caption {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
         margin: 0;
