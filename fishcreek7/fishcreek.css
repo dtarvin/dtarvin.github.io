@@ -104,6 +104,16 @@ footer nav {
     display: inline;
 }
 
+table {
+    border: 2px solid darkblue;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 1px solid darkblue;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
         margin: 0;
