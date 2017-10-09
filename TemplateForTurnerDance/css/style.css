@@ -510,6 +510,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     min-height: 750px;
     padding-top: 3em;
     float: right;
+    background-attachment: fixed;
 }
 
 .ab-w3-agile-info {
