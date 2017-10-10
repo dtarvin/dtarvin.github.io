@@ -35,6 +35,16 @@ body {
 
 }
 
+.parallax1 {
+    background-image: url("images/Turner-Dance-Joslyn.jpg");
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .carousel-inner {
     height: 100%;
 }
