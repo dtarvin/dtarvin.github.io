@@ -35,14 +35,9 @@ body {
 
 }
 
-.parallax1 {
+section.module.parallax-1 {
     background-image: url("images/Turner-Dance-Joslyn.jpg");
-    height: auto;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .carousel-inner {
@@ -67,4 +62,37 @@ h3 {
 
 .navbar {
     opacity: .5;
+}
+
+
+
+#transparent {
+    width: 100%;
+    background-image: url("");
+    background-color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+section.module.content {
+    padding: 40px 0;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    position: relative;
+}
+
+section {
+    display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
