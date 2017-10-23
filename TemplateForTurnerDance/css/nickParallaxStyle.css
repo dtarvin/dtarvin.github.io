@@ -48,7 +48,7 @@ section.module.parallax-2 {
   background-image: url("../images/TurnerDanceFacebook1.jpg");
 section.module.parallax-3 {
   background-image: url("https://dtarvin.github.io/TemplateForTurnerDance/images/Turner-Dance-Kristen.jpg");
-
+  }
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
