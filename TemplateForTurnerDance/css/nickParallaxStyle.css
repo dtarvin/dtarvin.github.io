@@ -47,7 +47,7 @@ section.module.parallax-1 {
 section.module.parallax-2 {
   background-image: url("../images/TurnerDanceFacebook1.jpg");
 section.module.parallax-3 {
-  background-image: url("../images/TurnerDanceFacebook15.jpg");
+  background-image: url("https://dtarvin.github.io/TemplateForTurnerDance/images/TurnerDanceFacebook15.jpg");
 }
 
 @media all and (min-width: 600px) {
