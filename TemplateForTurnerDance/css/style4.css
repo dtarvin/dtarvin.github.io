@@ -9,11 +9,13 @@ body {
     width: 96.66666666666666%;
     color: #FFF;
 }
+
 .btn-min-block
 {
     min-width: 170px;
     line-height: 26px;
 }
+
 .btn-clear
 {
     color: #FFF;
@@ -21,18 +23,17 @@ body {
     border-color: #FFF;
     margin-right: 15px;
 }
+
 .btn-clear:hover
 {
     color: #000;
     background-color: #FFF;
 }
 
-
 .carousel,
 .item,
 .active {
     height: 100%;
-
 }
 
 .carousel-inner {
@@ -63,4 +64,74 @@ h3 {
 .container {
   max-width: 960px;
   margin: 0 auto;
+    position: relative;
+}
+
+.table-main {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    width: 59%;
+}
+
+.table-grids {
+    width: 100%;
+    margin: 3em 0em 0em 0em;
+}
+
+.price-block {
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.price-block:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    z-index: 1;
+}
+
+.price-gd-top {
+    background: #ea4c89;
+    text-align: center;
+}
+
+.price-gd-top h4 {
+    font-size: 1.4em;
+    color: #fff;
+    padding: 0.4em 1em;
+    background: #d83675;
+    letter-spacing: 1px;
+}
+
+.price-gd-top h3 {
+    padding: 0.2em 0em 0em 0em;
+    font-size: 5em;
+    color: #fff;
+}
+
+.price-gd-top h3 span {
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.price-gd-top h5 {
+    font-size: 1.1em;
+    color: #fff;
+    padding: 0.3em 0.8em 0em;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.price-gd-top.pric-clr1 h4 {
+    background: #6ba52c;
+}
+
+.price-gd-top.pric-clr1 {
+    background: #8aba56;
 }
