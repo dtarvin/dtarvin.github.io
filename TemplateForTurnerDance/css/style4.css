@@ -141,6 +141,7 @@ h3 {
 
 #privatelessons {
     font-size: 1.2rem;
+    line-height: 2.5em;
 }
 
 /*#slide {
@@ -163,8 +164,14 @@ h3 {
 }*/
 
 .come-in {
-    transform: translateY(150px);
+    transform: translateX(-150px);
     animation: come-in 0.8s ease forwards;
+    opacity: 0.5;
+}
+
+.come-in>p {
+    color: white;
+    opacity: 1;
 }
 
 .come-in:nth-child(odd) {
@@ -172,5 +179,10 @@ h3 {
 }
     
 @keyframes come-in {
-    to { transform: translateY(0); }
+    to { transform: translateX(0); }
+}
+
+.box {
+    width: 20vw;
+    background-color: blue;
 }
