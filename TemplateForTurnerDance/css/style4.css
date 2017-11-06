@@ -65,7 +65,7 @@ h3 {
 
 
 .container {
-  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
     position: relative;
 }
@@ -185,4 +185,15 @@ h3 {
 .box {
     width: 20vw;
     background-color: blue;
+}
+
+@font-face {
+    font-family: "Brush Script MT";
+    src: url(BRUSHSCI.tff);
+}
+
+#name-logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 2em;
+    vertical-align: middle;
 }

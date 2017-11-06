@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+header {
+    background-color: #55bce0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*#turkey1 {
+    float: left;
+    padding-top: 20px;
+}*/
+
+/*#turkey2 {
+    float: right;
+    padding-top: 20px;
+}*/
+
+nav {
+   text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    width: 80vw;
+    margin:auto;
+    display: flex;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3em;
+    vertical-align: top;
+}
+
+h2 {
+    
+}
+
+a:link {
+    color: #dc961c;
+}
+
+a:active {
+    color: #776d3e;
+}
+
+a:visited {
+    color: #a98e05;
+}
+
+a:hover {
+    color: #55bce0;
+}
+
+video {
+    float: right;
+}
