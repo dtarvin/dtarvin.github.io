@@ -47,7 +47,6 @@ body {
 h3 {
   display: inline-block;
   padding: 10px;
-  /*background: #B9121B;*/
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -139,8 +138,8 @@ h3 {
 }
 
 #privatelessons {
-    font-size: 1.2rem;
-    line-height: 2.5em;
+    font-size: 48px;
+    line-height: 1.5em;
 }
 
 /*#slide {
@@ -195,4 +194,9 @@ h3 {
     font-family: "Brush Script MT", cursive;
     font-size: 2em;
     vertical-align: middle;
+}
+
+#navbar_blue {
+    background-color: blue;
+    color: lightblue;
 }
