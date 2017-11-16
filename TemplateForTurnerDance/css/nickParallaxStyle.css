@@ -35,7 +35,7 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;
-  line-height: 600px;
+  /*line-height: 600px;*/
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -58,11 +58,11 @@ section.module.parallax-3 {
     font-size: 20px;
   }
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 24px;
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 48px;
   }
 }
