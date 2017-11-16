@@ -213,4 +213,5 @@ h3 {
 .textAreaBorder {
     border: 5px solid red;   
     color: #fff;
+    font-size: .5rem;
 }
