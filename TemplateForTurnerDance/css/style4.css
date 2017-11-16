@@ -209,3 +209,7 @@ h3 {
 .col-md-6 {
     font-size: 1em;   
 }
+
+.textAreaBorder {
+    border: 5px solid red;   
+}
