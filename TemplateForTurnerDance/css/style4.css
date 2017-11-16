@@ -137,10 +137,10 @@ h3 {
     background: #8aba56;
 }
 
-#privatelessons {
+/*#privatelessons {
     font-size: 48px;
-    line-height: 1.5em;
-}
+    line-height: 1em;
+}*/
 
 /*#slide {
     position: absolute;
@@ -194,6 +194,7 @@ h3 {
     font-family: "Brush Script MT", cursive;
     font-size: 2em;
     vertical-align: middle;
+    color: pink;
 }
 
 #navbar_blue {
