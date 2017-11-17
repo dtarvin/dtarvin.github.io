@@ -211,7 +211,14 @@ h3 {
 }
 
 .textAreaBorder {
-    border: 5px solid red;   
+    /*border: 5px solid red; */  
     color: #fff;
-    font-size: .5rem;
+    /*font-size: .5rem;*/
+}
+
+@media all and (max-width: 768px) {
+    section.module .commCenter {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
 }
