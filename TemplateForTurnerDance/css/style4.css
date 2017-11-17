@@ -229,4 +229,7 @@ table, tr, td {
         font-size: 1.25rem;
         margin-bottom: 10px;
     }
+    table {
+        margin: auto;   
+    }
 }
