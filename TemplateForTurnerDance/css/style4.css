@@ -220,6 +220,10 @@ table, tr, td {
     border: 1px solid white;   
 }
 
+.cls {
+    width: 200px;
+}
+
 @media all and (max-width: 768px) {
     section.module .commCenter {
         font-size: 1.25rem;
