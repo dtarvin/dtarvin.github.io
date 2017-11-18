@@ -68,3 +68,13 @@ section.module.parallax-3 {
     font-size: 48px;
   }
 }
+
+@media all and (max-width: 768px) {
+    section.module.parallax-1 {
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+    }
+}
