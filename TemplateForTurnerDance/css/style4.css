@@ -221,12 +221,15 @@ table, tr, td {
 }
 
 .cls {
-    width: 200px;
+    width: 200px;   
 }
 
 @media all and (max-width: 768px) {
     section.module .commCenter {
         font-size: 1.25rem;
         margin-bottom: 10px;
+    }
+    table {
+        margin: auto;   
     }
 }
