@@ -46,6 +46,7 @@ section.module.parallax h1 {
 section.module.parallax-1 {
   background-image: url("../images/Turner-Dance-Kristen.jpg");
     height: 100%;
+    background-size: contain;
 }
 section.module.parallax-2 {
   background-image: url("../images/TurnerDanceFacebook1.jpg");
