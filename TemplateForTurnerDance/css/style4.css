@@ -203,6 +203,7 @@ h3 {
 #navbar_blue {
     background-color: blue;
     color: lightblue;
+    opacity: 0.3;
 }
 
 .navbar-inverse .navbar-nav>li>a {
