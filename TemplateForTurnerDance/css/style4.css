@@ -58,7 +58,10 @@ h3 {
 }
 
 .navbar {
-    opacity: .5;
+    /*opacity: .5;*/
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
 }
 
 
@@ -203,7 +206,7 @@ h3 {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: white;   
+    color: pink;   
 }
 
 .col-md-6 {
@@ -222,6 +225,65 @@ table, tr, td {
 
 .cls {
     width: 200px;   
+}
+
+.contact_form input[type='text'],
+.contact_form input[type="email"] {
+    width: 100%;
+    border-radius: 0;
+    line-height: 22px;
+    font-size: 14px;
+    padding: 14px 17px 14px;
+    outline: none;
+    color: #FFF;
+    height: 50px;
+    border: 1px solid #424141;
+    margin: 0 0 20px;
+    background: rgba(239, 235, 235, 0.18);
+    letter-spacing: 1px;
+}
+
+.contact_form textarea {
+    width: 100%;
+    border-radius: 0;
+    line-height: 22px;
+    font-size: 14px;
+    padding: 14px 17px 14px;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    color: #FFF;
+    height: 190px;
+    border: 1px solid #424141;
+    background: rgba(239, 235, 235, 0.18);
+    letter-spacing: 1px;
+}
+
+form.contact_form {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.message {
+    margin-bottom: 30px;
+}
+
+.contact_form input[type="submit"] {
+    padding: 13px 30px;
+    border: 2px solid #168eea;
+    font-size: 16px;
+    color: #fff;
+    background: #168eea;
+    text-decoration: none;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    letter-spacing: 1px;
 }
 
 @media all and (max-width: 768px) {
