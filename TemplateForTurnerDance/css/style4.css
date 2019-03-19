@@ -7,7 +7,7 @@ body {
 .main-text
 {
     position: absolute;
-    top: 50%;
+    top: 50%;n
     width: 96.66666666666666%;
     color: #FFF;
 }
@@ -58,7 +58,7 @@ h3 {
 }
 
 .navbar {
-    /*opacity: .5;*/
+    opacity: .5;
     background-color: transparent;
     background: transparent;
     border-color: transparent;
@@ -203,6 +203,7 @@ h3 {
 #navbar_blue {
     background-color: blue;
     color: lightblue;
+    opacity: 0.3;
 }
 
 .navbar-inverse .navbar-nav>li>a {
