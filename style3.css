@@ -8,7 +8,7 @@ html {
 }
 
 .container {
-  height: 300px;
+  /* height: 300px; */
 }
 
 p {
@@ -77,4 +77,8 @@ p {
 
 .hidden {
   display: none;
+}
+
+h3 {
+  text-align: center;
 }
