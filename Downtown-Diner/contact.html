@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Downtown Diner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Warnes" rel="stylesheet">
+    <link rel="stylesheet" href="finalproject.css" media="screen">
+    <link rel="stylesheet" href="finalprojectprint.css" media="print">
+</head>
+
+<body>
+    <!-- David Tarvin
+         contact.html
+	 	 17FA-INFO-1311-WA
+	 	 Olberding
+	 	 November 11, 2017
+        -->
+    <div id="wrapper">
+        <header>
+            <h1 id="headerForPrint">The Downtown Diner</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="final_home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact Us</h2>
+            <form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+                <p><label for="fname" class="enterInfo">First Name: </label><input type="text" name="fname" id="fname" required></p>
+                <p><label for="lname" class="enterInfo"> Last Name: </label><input type="text" name="lname" id="lname" required></p>
+                <p><label for="phone">Phone: </label><input type="tel" name="phone" id="phone"></p>
+                <p><label for="email" class="enterInfo">E-mail: </label><input type="email" name="email" id="email" required></p>
+                <p>Do you prefer contact by phone or email?</p>
+                    <input type="radio" name="contactMethod" id="byPhone" value="phone"><label for="byPhone"><span><span></span></span>Phone</label><br>
+                <input type="radio" name="contactMethod" id="byEmail" value="eMail"><label for="byEmail"><span><span></span></span>Email</label><br><br>
+                <label>Comments: </label><textarea name="myComments" cols="60" rows="5"></textarea><br>
+                <div><input id="mySubmit" type="submit" value="Submit">
+                <input type="reset" value="Clear form"></div><br>
+                <input type="hidden" name="recipient" value="lolberding@mccneb.edu">
+                <input type="hidden" name="subject" value="INFO1311 Final Project David Tarvin">
+                <input name="redirect" type="hidden" value="http://student.mccinfo.net/~drtarvin/final/response.html">
+                <input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~drtarvin/final/final_home.html">
+                <input type="hidden" name="return_link_title" value="Return to Home Page">
+            </form>
+        </main>
+        <footer>
+            <a href="final_home.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="specials.html">Specials</a>
+            <a href="contact.html">Contact Us</a>
+            <br>Copyright &copy; 2017 The Downtown Diner<br>
+            <a href="mailto:drtarvin@mail.mccneb.edu">drtarvin@mail.mccneb.edu</a>
+        </footer>
+    </div>
+</body>
+
+</html>

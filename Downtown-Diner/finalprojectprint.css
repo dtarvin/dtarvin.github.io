@@ -1,0 +1,67 @@
+/*
+    David Tarvin
+    finalproject.css
+    17FA-INFO-1311-WA
+    Olberding
+    November 11, 2017
+*/
+
+body {
+    background-color: white;
+    background: none;
+    color: black;
+}
+
+#wrapper {
+    margin: 0;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+nav {
+    display: none;
+}
+
+#inside, #outside {
+    display: block;
+    margin: auto;
+}
+
+main > h1, #list {
+    text-align: center;
+}
+
+#list > ul {
+        display: inline-block;
+        text-align: left;
+}
+
+#hope {
+        text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+video {
+    display: none;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    float: left;
+    padding-right: 10px;
+}
+
+#mySubmit {
+    margin-left: 110px;
+}
+
+footer {
+    text-align: center;
+}

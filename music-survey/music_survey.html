@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Music Survey</title>
+      
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="music_survey.css">
+    </head>
+    <body>
+        <!-- David Tarvin
+         music_survey.html
+	 	 17FA-INFO-1311-WA
+	 	 Olberding
+	 	 October 22, 2017
+        -->
+        <header>
+            <h1>iTunesGifts<br>Music Survey</h1>
+            <p>Congratulations! You are one step away from your $100 iTunes Gift Card! Just complete the following survey and you will qualify!</p><br>
+                
+            <p>Completing the following survey you will enable us to customize the music offers we send to you each week. Please be assured that your information will be kept private and will not be shared with any other organization.</p><br>
+        </header>
+        <form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+            
+                <p><label for="fname" class="enterInfo">First Name: <input type="text" name="fname" id="fname" required></label></p>
+                <p><label for="lname" class="enterInfo"> Last Name: <input type="text" name="lname" id="lname" required></label></p>
+            <p><label for="email" class="enterInfo">E-mail: <input type="email" name="email" id="email" required></label></p><br>
+            
+            <fieldset>
+                <legend>Select Your Favorite Types of Music:</legend>
+                <input type="checkbox" name="pop" id="pop" value="yes"><label for="pop"><span><span></span></span>Pop</label><br>
+                <input type="checkbox" name="classical"  id="classical" value="yes"><label for="classical"><span><span></span></span>Classical</label><br>
+                <input type="checkbox" name="rock" id="rock" value="yes"><label for="rock"><span><span></span></span>Rock</label><br>
+                <input type="checkbox" name="folk" id="folk" value="yes"><label for="folk"><span><span></span></span>Folk</label><br>
+                <input type="checkbox" name="rap" id="rap" value="yes"><label for="rap"><span><span></span></span>Rap</label><br>
+                <input type="checkbox" name="other" id="other" value="yes"><label for="other"><span><span></span></span>Other</label><br><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Select how often you purchase Music CDs:</legend>
+                <input type="radio" name="purchFreq" id="purchWeekly" value="weekly"><label for="purchWeekly"><span><span></span></span>Weekly</label><br>
+                <input type="radio" name="purchFreq" id="purchFew" value="few"><label for="purchFew"><span><span></span></span>A few CDs each year</label><br>
+                <input type="radio" name="purchFreq" id="purchMonthly" value="monthly"><label for="purchMonthly"><span><span></span></span>Monthly</label><br>
+                <input type="radio" name="purchFreq" id="purchNever" value="never"><label for="purchNever"><span><span></span></span>Never Purchase</label><br><br>
+            </fieldset><br>    
+            <p>Select the method you use most often to purchase Music:<br> 
+                <select size="1" name="accesstype">
+                    <option value="empty"></option>
+                    <option value="online">Online</option>
+                    <option value="retail">Retail Store</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            </p>
+            <p>What role does music play in your life?<br>
+            <textarea name="comments" cols="60" rows="5"></textarea></p><br>
+            <div><input id="mySubmit" type="submit" value="Submit">
+                <input type="reset" value="Clear form"></div><br>
+            <input type="hidden" name="recipient" value="drtarvin@mail.mccneb.edu">
+            <input type="hidden" name="subject" value="Music Survey">
+            <!--<input name="required" type="hidden" value="fname,lname,email,comments">-->
+            <input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~drtarvin/module7/music_survey.html">
+            <input type="hidden" name="return_link_title" value="Return to Survey">
+            <input type="hidden" name="background" value="vector-speaker-1680x1050.jpg">
+            <input type="hidden" name="bgcolor" value="black">
+            
+            <input type="hidden" name="text_color" value="white">
+            <input type="hidden" name="font_face" value="Times New Roman">
+            <input type="hidden" name="font_size" value="2em">
+        </form>
+      <footer>
+          <a href="mailto:david.tarvin@gmail.com">david.tarvin@gmail.com</a>
+      </footer>
+
+  </body>
+</html>

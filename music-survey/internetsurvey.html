@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Internet Survey</title>
+      
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            header {
+                border-bottom: solid 2px gray;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- David Tarvin
+         internetsurvey.html
+	 	 17FA-INFO-1311-WA
+	 	 Olberding
+	 	 October 21, 2017
+        -->
+        <header>
+            <h1>Internet Survey</h1>
+            <p>Please complete the following survey to provide us with information so that we can better serve you. Your information will be kept private and will not be shared with any other organization.</p>
+        </header>
+        <form name="order" method="post" id="" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+            <label>First Name:<input type="text" name="fname"></label>
+            <label>Last Name:<input type="text" name="lname"></label>
+            <label>Password:<input type="password" name="userpassword"></label>
+            <p>Do you currently have access to the Internet from home?<input type="radio" name="access" value="Yes"><label>Yes</label><input type="radio" name="access" value="No"><label>No</label></p>
+            <p>Who currently used the Internet from home? (Please check all that apply)</p>
+            <input type="checkbox" name="adultm" value="adultm"><label>Adult--Male</label><br>
+            <input type="checkbox" name="adultf" value="adultf"><label>Adult--Female</label><br>
+            <input type="checkbox" name="childm" value="childm"><label>Child--Male</label><br>
+            <input type="checkbox" name="childf" value="childf"><label>Child--Female</label><br>
+            <p>Please select the type of Internet access you use from home: 
+                <select size="1" name="accesstype">
+                    <option value="Dial-up">Dial-up</option>
+                    <option value="Cable Modem">Cable Moden</option>
+                    <option value="LAN">LAN</option>
+                    <option value="None">None</option>
+                </select>
+            </p>
+            <p>Briefly explain how you use the Internet in your home:<br>
+            <textarea name="internetuse" cols="60" rows="5"></textarea><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear form">
+            </p>
+        </form>
+    
+    
+      <footer>
+          <a href="mailto:david.tarvin@gmail.com">david.tarvin@gmail.com</a>
+      </footer>
+
+  </body>
+</html>
