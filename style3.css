@@ -7,6 +7,11 @@ html {
   font: 900 1.2rem "Lato";
 }
 
+body {
+  margin: 10px;
+  background: black !important;
+}
+
 .container {
   /* height: 300px; */
 }
@@ -25,7 +30,7 @@ p {
   opacity: 1;
   animation-name: introFadeIn;
   animation-duration: 5s;
-  color: white;
+  /* color: white; */
 }
 
 @keyframes introFadeIn {
