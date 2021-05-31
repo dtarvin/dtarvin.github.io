@@ -18,8 +18,11 @@
                        errorWasLast = false;
                    }
                    $(".operator, .equal").removeAttr("disabled");
-                   display.append(label);
-                   equalWasLast = false;
+                   if (display.text().length <12) {
+                        display.append(label);
+                        equalWasLast = false;
+                   }
+                   
                 });
                 $(".equal").click(function(){
                     equalWasLast = true;
